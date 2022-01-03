@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_bg">
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="173dp"
+        android:layout_height="133dp"
+
+        android:background="@drawable/c"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <Button
+        android:id="@+id/php"
+        android:layout_width="173dp"
+        android:layout_height="133dp"
+        android:background="@drawable/php"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="439dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/java"
+        android:layout_width="173dp"
+        android:layout_height="133dp"
+        android:background="@drawable/java"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <Button
+        android:id="@+id/python"
+        android:layout_width="173dp"
+        android:layout_height="133dp"
+        android:background="@drawable/python"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="439dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/programming"
+        android:layout_width="444dp"
+        android:layout_height="248dp"
+        android:background="@drawable/programming"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="7dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

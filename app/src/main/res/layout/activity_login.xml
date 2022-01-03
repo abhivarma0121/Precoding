@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_bg"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:fontFamily="cursive"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#CFDD11"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="344dp"
+        android:layout_height="63dp"
+        android:hint="username"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="342dp"
+        android:layout_height="55dp"
+        android:hint="password"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="262dp"
+        android:layout_height="74dp"
+        android:background="@drawable/bt"
+        android:hint="Login"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+
+</android.support.constraint.ConstraintLayout>

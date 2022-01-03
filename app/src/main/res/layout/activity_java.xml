@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    tools:context=".ListActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:fontFamily="cursive"
+        android:maxLines="1"
+        android:text="Java programming"
+        android:textAlignment="center"
+        android:textSize="56sp" />
+
+    <ListView
+        android:id="@+id/simpleListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/material_blue_grey_800"
+        android:dividerHeight="1dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_bg"
+    tools:context=".RegistrationActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="344dp"
+        android:layout_height="63dp"
+        android:hint="username"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="91dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="342dp"
+        android:layout_height="55dp"
+        android:hint="abc@gmail.com"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="173dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="347dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/username"
+        android:hint="password"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="246dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="350dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/password"
+        android:hint="repassword"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="318dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="222dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/repassword"
+        android:background="@drawable/bt"
+        android:hint="Signup"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="471dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:fontFamily="cursive"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#CFDD11"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+
+</android.support.constraint.ConstraintLayout>
